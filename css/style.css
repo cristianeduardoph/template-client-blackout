@@ -46,6 +46,12 @@ span {
   padding: 0 20px;
 }
 
+.container-full {
+  height: 100vh;
+  width: 100vw;
+  padding: 0 20px;
+}
+
 .gradiente {
   background-image: linear-gradient(
       to top,
@@ -57,6 +63,13 @@ span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* ==================== Loading */
+.content__loading {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
 }
 
 /* ==================== HEADER */

@@ -7,65 +7,19 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Pico CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
     <!-- Title -->
     <title>Blackout 🕯️ | Basic Template</title>
   </head>
-  <body class="container gradiente grid">
-    <header>
-      <div class="content__button"><a class="button" href="http://"></a></div>
-    </header>
-    <main>
-      <div class="content__title">
-        <section>
-          <span class="title__fecha">16 Octubre 2024</span>
-          <h1 class="title__name">Quemado de Guines</h1>
-          <div class="content__badge">
-            <span class="badge bloque">BLOQUE-B</span>
-            <span class="badge circuito">C-151, 53, 54</span>
-          </div>
-        </section>
-
-        <section>
-          <div class="content_rotacion">
-            <span class="title__dia">Miercoles</span>
-            <ul class="content__list__rotaciones">
-              <li>
-                <div class="item__rotacion">
-                  <span>07:00 <b>PM</b></span>
-                  <span>💡 <b class="rotacion__on">ON</b></span>
-                  <span>07:00 <b>PM</b></span>
-                </div>
-              </li>
-              <li>
-                <div class="item__rotacion active__rotacion">
-                  <span>07:00 <b>PM</b></span>
-                  <span>💡 <b class="rotacion__off">OFF</b></span>
-                  <span>07:00 <b>PM</b></span>
-                </div>
-              </li>
-              <li>
-                <div class="item__rotacion">
-                  <span>07:00 <b>PM</b></span>
-                  <span>💡 <b class="rotacion__on">ON</b></span>
-                  <span>07:00 <b>PM</b></span>
-                </div>
-              </li>
-              <li>
-                <div class="item__rotacion">
-                  <span>07:00 <b>PM</b></span>
-                  <span>💡 <b class="rotacion__off">OFF</b></span>
-                  <span>07:00 <b>PM</b></span>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="content__prevision">
-            <button>Previcion para 5 dias</button>
-          </div>
-        </section>
-      </div>
-    </main>
-    <footer></footer>
+  <body class=".container-full gradiente grid">
+    <div class="content__loading">
+      <span aria-busy="true">Cargando recursos ...</span>
+    </div>
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>
