@@ -19,6 +19,6 @@ async function fetchWithRetry(url, options, retyDely = 5000) {
     const data = await fetchWithRetry('https://node-api-blackout.onrender.com/horario');
     console.log("Datos recibidos:", data);
     // Aquí continua el funcionamiento normal de la app.
-    window.location.href = "./home.html";
+    window.location.href = "/template-client-blackout/home.html";
     // window.open("../index.html", "_blank");
 })();
